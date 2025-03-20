@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(68, 63, 58);
+    background-image: url(https://okcredit-blog-images-prod.storage.googleapis.com/2021/02/d1--1--5.jpg);
+    background-size: cover;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #1b4976;
+}
+
+label.logo{
+    font-size: 35px;
+    color: white;
+    margin: 0 100px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 8px 20px ;
+    background: #506970;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-style: double;
+
+
+}
+
+/* nav ul li a.active,a:hover{
+    background: #de3747;
+} */
+
+nav ul li a:hover{
+    background: rgb(54, 161, 203) ;
+    box-shadow: 0px 0px 7px white;
+    color: rgb(58, 45, 20);
+
+}
+
+#checkbtn{
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    display: none;
+
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ ul{
+    left: 0;
+}
+
+@media(max-width:450px){
+    label.logo{
+        font-size: 30px;
+      margin: 0px 50px;
+}
+}
+
+@media(max-width: 909px){
+    label.logo{
+        font-size: 30px;
+        margin: 0px 70px;
+    }
+
+#checkbtn{
+    display: block;
+    
+   }
+
+nav ul{
+    width: 100%;
+    height: 100vh;
+    /* background: #7a464b; */
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    /* transition: .5s; */
+   }
+
+nav ul li{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+   }
+
+@media(max-width:450px){
+    label.logo{
+        font-size: 30px;
+        margin: 0 50px;
+    }
+
+   }
+}
+
+
+.sahil{
+    margin-top: 60px;
+    height: 230px;
+    width: 33%;
+    /* background-color: rgb(127, 172, 224); */
+    /* background-color: #b56565; */
+    padding-top: 9px;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-style: oblique;
+    /* border-style: dashed; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgb(0, 0, 0);
+    
+}
+
+
+
+.mid{
+    
+    /* padding-top: 55px; */
+    margin-left: 40px;
+    display: flex;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    margin-left: 850px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(7, 0, 28);
+    box-shadow: 0px 0px 10px rgb(255, 254, 254);
+    
+    
+
+}
+button:hover{
+    background-color: #3c96a8;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
+
+.third{
+    
+    margin-top: 120px;
+    height: 230px;
+    /* background-color: #1b4976; */
+    background-color: transparent;
+    width: 33%;
+    margin-left: 30px;
+    box-shadow: 0px 0px 40px black;
+    border-radius: 20px;
+    /* border-style: dotted; */
+    color: white;
+    font-size: 23px;
+    padding-top: 10px;
+    font-style: oblique;
+}
+
+
+
+
+
+.forth{
+    height: 230px;
+    width: 50%;
+    background-color: #1b4976;
+    margin-top: 70px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 40px black;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    /* border-style: double; */
+    color: white;
+    font-size: 23px;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+
+
