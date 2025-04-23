@@ -54,9 +54,6 @@ nav ul li a{
 
 }
 
-/* nav ul li a.active,a:hover{
-    background: #de3747;
-} */
 
 nav ul li a:hover{
     background: rgb(54, 161, 203) ;
